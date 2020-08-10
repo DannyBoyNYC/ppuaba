@@ -1,6 +1,6 @@
-# gatsby-starter-gcn
+# PPUABA
 
-A starter template to build amazing static websites with Gatsby, Contentful and Netlify. Inspired by [gatsby-contentful-starter](https://github.com/contentful-userland/gatsby-contentful-starter).
+Using a starter template to build amazing static websites with Gatsby, Contentful and Netlify. Inspired by [gatsby-contentful-starter](https://github.com/contentful-userland/gatsby-contentful-starter).
 
 ## Features
 
@@ -68,7 +68,7 @@ Edit siteMeta data in [`/src/gatsby-config.js`](https://github.com/ryanwiemer/ga
       {
         name: 'About',
         slug: '/about/',
-      }, 
+      },
       {
         name: 'Contact',
         slug: '/contact/',
