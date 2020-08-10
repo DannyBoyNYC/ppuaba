@@ -17,10 +17,10 @@ try {
 
 module.exports = {
   siteMetadata: {
-    title: 'GCN',
+    title: 'PPUABA',
     description:
-      'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
-    siteUrl: 'https://gcn.netlify.com',
+      'Website of the Park Place Underhill Avenue block Association.',
+    siteUrl: 'https://ppuaba.com',
     image: '/images/share.jpg',
     menuLinks: [
       {
