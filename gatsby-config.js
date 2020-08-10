@@ -24,7 +24,7 @@ module.exports = {
     image: '/images/share.jpg',
     menuLinks: [
       {
-        name: 'Home',
+        name: 'Park Place / Underhill Avenue Block Association (PPUABA)',
         slug: '/',
       },
       {
