@@ -1,8 +1,9 @@
 # PPUABA
 
-Using a starter template to build amazing static websites with Gatsby, Contentful and Netlify. Inspired by [gatsby-contentful-starter](https://github.com/contentful-userland/gatsby-contentful-starter).
+Prospect Park, Underhill Avenue Block Association
 
-Deploys from Netlify
+Deploys from Netlify.com
+Content provided by Contentful
 
 ## Features
 
@@ -57,7 +58,7 @@ Edit siteMeta data in [`/src/gatsby-config.js`](https://github.com/ryanwiemer/ga
 
 ```js
   siteMetadata: {
-    title: 'GCN', // Title of the website
+    title: 'Prospect Park, Underhill Avenue Block Association', // Title of the website
     description: // Description of the website
       'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
     siteUrl: 'https://gcn.netlify.com', // Website URL. Do not include trailing slash

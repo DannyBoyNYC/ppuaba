@@ -3,6 +3,8 @@ import { Link } from 'gatsby'
 import styled from '@emotion/styled'
 import { useSiteMetadata } from '../hooks/use-site-metadata'
 
+import { useIdentityContext } from 'react-netlify-identity'
+
 const Header = styled.header`
   background: ${props => props.theme.colors.primary};
   width: 100%;

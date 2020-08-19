@@ -7,6 +7,9 @@
   "dependencies": {
     "@emotion/core": "^10.0.27",
     "@emotion/styled": "^10.0.27",
+    "@reach/dialog": "^0.10.5",
+    "@reach/tabs": "^0.10.5",
+    "@reach/visually-hidden": "^0.10.4",
     "babel-plugin-styled-components": "^1.10.7",
     "chalk": "^3.0.0",
     "contentful-import": "^7.6.2",
@@ -36,6 +39,8 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
+    "react-netlify-identity": "^0.2.5",
+    "react-netlify-identity-widget": "^0.2.7",
     "theme-ui": "^0.3.1"
   },
   "keywords": [

@@ -49,7 +49,7 @@ const Posts = ({ data, pageContext }) => {
     </Layout>
   )
 }
-
+// PURPLE
 export const query = graphql`
   query($skip: Int!, $limit: Int!) {
     allContentfulPost(
