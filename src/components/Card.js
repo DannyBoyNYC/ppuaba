@@ -72,10 +72,10 @@ const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
           <Link to={`${props.basePath}/${slug}/`}>
             <StyledImg fluid={heroImage.fluid} backgroundColor={'#eeeeee'} />
             <Title>{title}</Title>
-            <Date>{publishDate}</Date>
-            <ReadingTime>
+            <Date>Publish date {publishDate}</Date>
+            {/* <ReadingTime>
               {body.childMarkdownRemark.timeToRead} min read
-            </ReadingTime>
+            </ReadingTime> */}
             <Excerpt
               dangerouslySetInnerHTML={{
                 __html: body.childMarkdownRemark.excerpt,
