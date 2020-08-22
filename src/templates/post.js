@@ -17,6 +17,7 @@ const PostTemplate = ({ data, pageContext }) => {
     body,
     publishDate,
     tags,
+    ordering,
   } = data.contentfulPost
 
   const previous = pageContext.prev
@@ -46,9 +47,22 @@ const PostTemplate = ({ data, pageContext }) => {
         {tags && <TagList tags={tags} basePath={basePath} />}
         <PostDetails
           date={publishDate}
-          timeToRead={body.childMarkdownRemark.timeToRead}
+          // timeToRead={body.childMarkdownRemark.timeToRead}
         />
         <PageBody body={body} />
+        <div
+          style={{
+            width: 32,
+            height: 32,
+            borderRadius: '50%',
+            color: 'white',
+            backgroundColor: 'red',
+            lineHeight: 2,
+            textAlign: 'center',
+          }}
+        >
+          {ordering}
+        </div>
       </Container>
       <PostLinks previous={previous} next={next} basePath={basePath} />
     </Layout>
@@ -60,18 +74,19 @@ export const query = graphql`
     contentfulPost(slug: { eq: $slug }) {
       title
       slug
-      metaDescription {
-        internal {
-          content
-        }
-      }
+      ordering
+      # metaDescription {
+      #   internal {
+      #     content
+      #   }
+      # }
       publishDate(formatString: "MMMM DD, YYYY")
       publishDateISO: publishDate(formatString: "YYYY-MM-DD")
-      tags {
-        title
-        id
-        slug
-      }
+      # tags {
+      #   title
+      #   id
+      #   slug
+      # }
       heroImage {
         title
         fluid(maxWidth: 1800) {
@@ -83,7 +98,7 @@ export const query = graphql`
       }
       body {
         childMarkdownRemark {
-          timeToRead
+          # timeToRead
           html
           excerpt(pruneLength: 320)
         }
