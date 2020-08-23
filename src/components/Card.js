@@ -71,11 +71,14 @@ const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
         <Post featured={props.featured}>
           <Link to={`${props.basePath}/${slug}/`}>
             <StyledImg fluid={heroImage.fluid} backgroundColor={'#eeeeee'} />
-            <Title>{title}</Title>
+            <Title>
+              {title}
+              {/* ( {props.ordering} ) */}
+            </Title>
             <Date>Publish date {publishDate}</Date>
-            {/* <ReadingTime>
+            <ReadingTime>
               {body.childMarkdownRemark.timeToRead} min read
-            </ReadingTime> */}
+            </ReadingTime>
             <Excerpt
               dangerouslySetInnerHTML={{
                 __html: body.childMarkdownRemark.excerpt,

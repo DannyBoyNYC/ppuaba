@@ -1,6 +1,6 @@
 module.exports.data = {
   posts: `{
-    allContentfulPost(sort: { fields: [ordering], order: DESC }) {
+    allContentfulPost(sort: { fields: [ordering], order: ASC }) {
       edges {
         node {
           slug
