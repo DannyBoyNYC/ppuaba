@@ -50,10 +50,10 @@ const Footer = () => (
           rel="nofollow noopener noreferrer"
           target="_blank"
         >
-          © Park Place Underhill Avenue Block Association
+          © Park Place – Underhill Avenue Block Association
         </a>
       </Item>
-      <Item>
+      {/* <Item>
         <a
           href="https://deverell.dev"
           target="_blank"
@@ -61,7 +61,7 @@ const Footer = () => (
         >
           Made with ♥️ by Daniel Deverell
         </a>
-      </Item>
+      </Item> */}
     </List>
   </Wrapper>
 )
