@@ -46,7 +46,7 @@ const Footer = () => (
     <List>
       <Item>
         <a
-          href="https://www.ppuaba.com/"
+          href="https://www.ppuaba.org/"
           rel="nofollow noopener noreferrer"
           target="_blank"
         >
