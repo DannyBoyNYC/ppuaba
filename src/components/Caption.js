@@ -19,7 +19,7 @@ const PhotoCaption = styled.p`
 const Caption = ({ caption }) => {
   return (
     <Wrapper>
-      <PhotoCaption>Photo: {caption}</PhotoCaption>
+      <PhotoCaption>{caption}</PhotoCaption>
     </Wrapper>
   )
 }

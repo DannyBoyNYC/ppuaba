@@ -45,7 +45,7 @@ const PostTemplate = ({ data, pageContext }) => {
       />
       <Hero title={title} image={heroImage} height={'50vh'} />
       <Container>
-        <Caption caption={caption} />
+        {caption && <Caption caption={caption} />}
         {tags && <TagList tags={tags} basePath={basePath} />}
         <PostDetails
           date={publishDate}
