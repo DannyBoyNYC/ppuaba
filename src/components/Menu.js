@@ -37,9 +37,10 @@ const Nav = styled.nav`
       margin-bottom: 1rem;
       flex-basis: 100%;
       line-height: 1.5;
-      font-size: 1.25rem;
+      font-size: 1.5rem;
+      /* font-family: Georgia, 'Times New Roman', Times, serif; */
       @media screen and (min-width: ${props => props.theme.responsive.small}) {
-        font-size: 1.15rem;
+        font-size: 1.25rem;
         margin-bottom: 0;
       }
     }
@@ -50,7 +51,7 @@ const Nav = styled.nav`
     color: DarkGray;
     font-weight: 600;
     transition: all 0.2s;
-    border-bottom: 2px solid ${props => props.theme.colors.text};
+
     &:hover {
       color: white;
     }
