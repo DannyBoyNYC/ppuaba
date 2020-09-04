@@ -4,7 +4,7 @@ import styled from '@emotion/styled'
 import { useSiteMetadata } from '../hooks/use-site-metadata'
 
 const Header = styled.header`
-  background: ${props => props.theme.colors.primary};
+  background: ${props => props.theme.colors.ppuaba};
   width: 100%;
   padding: 1.5em 0;
 `
@@ -17,15 +17,30 @@ const Nav = styled.nav`
   ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    @media screen and (min-width: ${props => props.theme.responsive.small}) {
+      flex-wrap: nowrap;
+    }
   }
 
   li {
     display: inline-block;
-    margin-left: 1em;
+    margin-left: 0;
+    @media screen and (min-width: ${props => props.theme.responsive.small}) {
+      margin-left: 1em;
+    }
+
     &:first-of-type {
       position: relative;
       margin: 0;
+      margin-bottom: 1rem;
       flex-basis: 100%;
+      line-height: 1.5;
+      font-size: 1.15rem;
+      @media screen and (min-width: ${props => props.theme.responsive.small}) {
+        margin-bottom: 0;
+      }
     }
   }
 
