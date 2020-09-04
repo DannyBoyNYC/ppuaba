@@ -37,8 +37,9 @@ const Nav = styled.nav`
       margin-bottom: 1rem;
       flex-basis: 100%;
       line-height: 1.5;
-      font-size: 1.15rem;
+      font-size: 1.25rem;
       @media screen and (min-width: ${props => props.theme.responsive.small}) {
+        font-size: 1.15rem;
         margin-bottom: 0;
       }
     }

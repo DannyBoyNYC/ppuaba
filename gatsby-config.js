@@ -36,6 +36,11 @@ module.exports = {
         slug: '/about/',
       },
       {
+        name: 'Join',
+        slug: '/join-ppuaba/',
+      },
+
+      {
         name: 'Contact',
         slug: '/contact/',
       },
@@ -86,8 +91,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'GCN',
-        short_name: 'GCN',
+        name: 'Park Place Underhill Avenue Block Association',
+        short_name: 'PPABA',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#ffffff',
