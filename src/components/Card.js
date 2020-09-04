@@ -52,11 +52,13 @@ const Title = styled.h2`
 const Date = styled.h3`
   margin: 0 1rem 0.5rem 1rem;
   color: gray;
+  font-size: 0.875rem;
 `
 
 const ReadingTime = styled.h4`
   margin: 0 1rem 1.5rem 1rem;
   color: gray;
+  font-size: 0.875rem;
 `
 
 const Excerpt = styled.p`
