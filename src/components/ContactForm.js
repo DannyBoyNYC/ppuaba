@@ -204,7 +204,7 @@ class ContactForm extends React.Component {
             <input name="bot" onChange={this.handleInputChange} />
           </label>
         </p>
-        <p style={{ marginBottom: '1rem' }}>
+        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
           You can use this form to send an email to the Block Association. We
           will respond to you as soon as possible.
         </p>
