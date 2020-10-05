@@ -8,7 +8,7 @@
     "@emotion/core": "^10.0.27",
     "@emotion/styled": "^10.0.27",
     "babel-plugin-styled-components": "^1.10.7",
-    "chalk": "^3.0.0",
+    "chalk": "^4.1.0",
     "contentful-import": "^7.6.2",
     "gatsby": "^2.19.12",
     "gatsby-awesome-pagination": "^0.3.5",
@@ -35,7 +35,7 @@
     "prismjs": "^1.19.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
+    "react-helmet": "^6.1.0",
     "theme-ui": "^0.3.1"
   },
   "keywords": [
@@ -56,13 +56,13 @@
     "clean": "gatsby clean"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^7.10.0",
     "eslint-config-gatsby-standard": "^2.2.0",
-    "prettier": "^1.19.1",
-    "stylelint": "^13.0.0",
-    "stylelint-config-prettier": "^8.0.1",
-    "stylelint-config-standard": "^19.0.0",
+    "prettier": "^2.1.2",
+    "stylelint": "^13.7.2",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0",
     "stylelint-config-styled-components": "^0.1.1",
-    "stylelint-processor-styled-components": "^1.9.0"
+    "stylelint-processor-styled-components": "^1.10.0"
   }
 }
