@@ -1,0 +1,169 @@
+9:29:15 AM: Build ready to start
+9:29:16 AM: build-image version: b0258b965567defc4a2d7e2f2dec2e00c8f73ad6
+9:29:16 AM: build-image tag: v3.4.1
+9:29:16 AM: buildbot version: 001ecdebccafc08ded2119dd70dcb021d1ab9a4a
+9:29:16 AM: Fetching cached dependencies
+9:29:17 AM: Starting to download cache of 139.7MB
+9:29:18 AM: Finished downloading cache in 1.235996687s
+9:29:18 AM: Starting to extract cache
+9:29:23 AM: Finished extracting cache in 5.611542968s
+9:29:23 AM: Finished fetching cache in 6.92953076s
+9:29:23 AM: Starting to prepare the repo for build
+9:29:24 AM: Preparing Git Reference refs/heads/master
+9:29:26 AM: Different publish path detected, going to use the one specified in the Netlify configuration file: 'public' versus 'public/' in the Netlify UI
+9:29:26 AM: Starting build script
+9:29:26 AM: Installing dependencies
+9:29:26 AM: Python version set to 2.7
+9:29:27 AM: Started restoring cached node version
+9:29:29 AM: Finished restoring cached node version
+9:29:30 AM: v12.18.0 is already installed.
+9:29:31 AM: Now using node v12.18.0 (npm v6.14.4)
+9:29:31 AM: Started restoring cached build plugins
+9:29:31 AM: Finished restoring cached build plugins
+9:29:31 AM: Attempting ruby version 2.7.1, read from environment
+9:29:32 AM: Using ruby version 2.7.1
+9:29:33 AM: Using PHP version 5.6
+9:29:33 AM: 5.2 is already installed.
+9:29:33 AM: Using Swift version 5.2
+9:29:33 AM: Started restoring cached node modules
+9:29:33 AM: Finished restoring cached node modules
+9:29:33 AM: Started restoring cached yarn cache
+9:29:33 AM: Finished restoring cached yarn cache
+9:29:34 AM: Installing NPM modules using Yarn version 1.22.4
+9:29:34 AM: yarn install v1.22.4
+9:29:34 AM: [1/4] Resolving packages...
+9:29:35 AM: [2/4] Fetching packages...
+9:29:44 AM: warning url-loader@1.1.2: Invalid bin field for "url-loader".
+9:30:11 AM: info fsevents@2.1.3: The platform "linux" is incompatible with this module.
+9:30:11 AM: info "fsevents@2.1.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+9:30:11 AM: info fsevents@1.2.13: The platform "linux" is incompatible with this module.
+9:30:11 AM: info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+9:30:11 AM: [3/4] Linking dependencies...
+9:30:11 AM: warning " > babel-plugin-styled-components@1.11.1" has unmet peer dependency "styled-components@>= 2".
+9:30:11 AM: warning "gatsby > @typescript-eslint/eslint-plugin > tsutils@3.17.1" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+9:30:11 AM: warning "gatsby-plugin-emotion > @emotion/babel-preset-css-prop > @babel/plugin-transform-react-jsx@7.10.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+9:30:11 AM: warning "gatsby-plugin-emotion > @emotion/babel-preset-css-prop > @emotion/babel-plugin-jsx-pragmatic > @babel/plugin-syntax-jsx@7.10.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+9:30:11 AM: warning " > gatsby-plugin-emotion@4.3.13" has unmet peer dependency "@babel/core@^7.11.6".
+9:30:11 AM: warning "gatsby-plugin-emotion > @emotion/babel-preset-css-prop@10.0.27" has unmet peer dependency "@babel/core@^7.0.0".
+9:30:11 AM: warning "gatsby-plugin-emotion > @emotion/babel-preset-css-prop > @emotion/babel-plugin-jsx-pragmatic@0.1.5" has unmet peer dependency "@babel/core@^7.0.0".
+9:30:11 AM: warning "gatsby-plugin-netlify > webpack-assets-manifest@3.1.1" has unmet peer dependency "webpack@>=4.4.0".
+9:30:11 AM: warning " > gatsby-plugin-theme-ui@0.3.0" has incorrect peer dependency "theme-ui@^0.2.0".
+9:30:11 AM: warning " > gatsby-source-contentful@2.3.50" has unmet peer dependency "gatsby-plugin-sharp@^2.6.14".
+9:30:11 AM: warning " > eslint-config-gatsby-standard@2.2.0" has incorrect peer dependency "eslint@^5.16.0".
+9:30:38 AM: [4/4] Building fresh packages...
+9:30:48 AM: Done in 73.56s.
+9:30:48 AM: NPM modules installed using Yarn
+9:30:48 AM: Started restoring cached go cache
+9:30:48 AM: Finished restoring cached go cache
+9:30:48 AM: go version go1.14.4 linux/amd64
+9:30:48 AM: go version go1.14.4 linux/amd64
+9:30:48 AM: Installing missing commands
+9:30:48 AM: Verify run directory
+9:30:49 AM: ​
+9:30:49 AM: ┌─────────────────────────────┐
+9:30:49 AM: │        Netlify Build        │
+9:30:49 AM: └─────────────────────────────┘
+9:30:49 AM: ​
+9:30:49 AM: ❯ Version
+9:30:49 AM:   @netlify/build 4.7.2
+9:30:49 AM: ​
+9:30:49 AM: ❯ Flags
+9:30:49 AM:   deployId: 5f7c712aab0f5e00078d83ea
+9:30:49 AM:   mode: buildbot
+9:30:50 AM: ​
+9:30:50 AM: ❯ Current directory
+9:30:50 AM:   /opt/build/repo
+9:30:50 AM: ​
+9:30:50 AM: ❯ Config file
+9:30:50 AM:   No config file was defined: using default values.
+9:30:50 AM: ​
+9:30:50 AM: ❯ Context
+9:30:50 AM:   production
+9:30:50 AM: ​
+9:30:50 AM: ┌───────────────────────────────────┐
+9:30:50 AM: │ 1. Build command from Netlify app │
+9:30:50 AM: └───────────────────────────────────┘
+9:30:50 AM: ​
+9:30:50 AM: $ gatsby build
+9:30:53 AM: success open and validate gatsby-configs - 0.069s
+9:30:54 AM: success load plugins - 1.131s
+9:30:54 AM: success onPreInit - 0.044s
+9:30:54 AM: success delete html and css files from previous builds - 0.003s
+9:30:54 AM: success initialize cache - 0.007s
+9:30:54 AM: success copy gatsby files - 0.042s
+9:30:54 AM: success onPreBootstrap - 0.045s
+9:30:55 AM: success createSchemaCustomization - 0.118s
+9:30:55 AM: success Contentful: Fetch data (6t9k66liklgs-master) - 0.301s
+9:30:55 AM: info Updated entries 21
+9:30:55 AM: info Deleted entries 0
+9:30:55 AM: info Updated assets 51
+9:30:55 AM: info Deleted assets 0
+9:30:55 AM: success Contentful: Proccess data (6t9k66liklgs-master) - 0.066s
+9:30:55 AM: info Creating 5 Contentful Tag nodes
+9:30:55 AM: info Creating 15 Contentful Post nodes
+9:30:55 AM: info Creating 1 Contentful Page nodes
+9:30:55 AM: info Creating 51 Contentful asset nodes
+9:30:55 AM: success Contentful: Create nodes (6t9k66liklgs-master) - 0.122s
+9:30:55 AM: success Checking for changed pages - 0.000s
+9:30:55 AM: success source and transform nodes - 0.569s
+9:30:56 AM: success building schema - 0.598s
+9:30:56 AM: info Total nodes: 177, SitePage nodes: 24 (use --verbose for breakdown)
+9:30:56 AM: success createPages - 0.098s
+9:30:56 AM: success Checking for changed pages - 0.000s
+9:30:56 AM: success createPagesStatefully - 0.083s
+9:30:56 AM: success update schema - 0.048s
+9:30:56 AM: success onPreExtractQueries - 0.002s
+9:30:57 AM: success extract queries from components - 0.538s
+9:30:57 AM: success write out redirect data - 0.001s
+9:30:57 AM: success Build manifest and related icons - 0.082s
+9:30:57 AM: success onPostBootstrap - 0.084s
+9:30:57 AM: info bootstrap finished - 7.135s
+9:30:57 AM: success run static queries - 0.025s - 2/2 80.84/s
+9:30:58 AM: success run page queries - 1.735s - 26/26 14.99/s
+9:30:58 AM: success write out requires - 0.004s
+9:31:24 AM: success Building production JavaScript and CSS bundles - 25.505s
+9:31:24 AM: success Rewriting compilation hashes - 0.002s
+9:31:30 AM: success Building static HTML for pages - 5.290s - 26/26 4.91/s
+9:31:30 AM: info Generated public/sw.js, which will precache 8 files, totaling 320952 bytes.
+9:31:30 AM: The following pages will be precached:
+9:31:30 AM: /offline-plugin-app-shell-fallback/index.html
+9:31:30 AM: success onPostBuild - 0.118s
+9:31:30 AM: info Done building in 40.176646534 sec
+9:31:30 AM: ​
+9:31:30 AM: (build.command completed in 40.5s)
+9:31:30 AM: ​
+9:31:30 AM: ┌─────────────────────────────┐
+9:31:30 AM: │   Netlify Build Complete    │
+9:31:30 AM: └─────────────────────────────┘
+9:31:30 AM: ​
+9:31:30 AM: (Netlify Build completed in 40.5s)
+9:31:30 AM: Caching artifacts
+9:31:30 AM: Started saving node modules
+9:31:30 AM: Finished saving node modules
+9:31:30 AM: Started saving build plugins
+9:31:30 AM: Finished saving build plugins
+9:31:30 AM: Started saving yarn cache
+9:31:30 AM: Finished saving yarn cache
+9:31:30 AM: Started saving pip cache
+9:31:30 AM: Finished saving pip cache
+9:31:30 AM: Started saving emacs cask dependencies
+9:31:30 AM: Finished saving emacs cask dependencies
+9:31:30 AM: Started saving maven dependencies
+9:31:30 AM: Finished saving maven dependencies
+9:31:30 AM: Started saving boot dependencies
+9:31:30 AM: Finished saving boot dependencies
+9:31:30 AM: Started saving go dependencies
+9:31:30 AM: Finished saving go dependencies
+9:31:30 AM: Build script success
+9:31:30 AM: Starting to deploy site from 'public'
+9:31:30 AM: Creating deploy tree 
+9:31:30 AM: Creating deploy upload records
+9:31:31 AM: 42 new files to upload
+9:31:31 AM: 0 new functions to upload
+9:31:32 AM: Starting post processing
+9:31:32 AM: Post processing - HTML
+9:31:35 AM: Post processing - header rules
+9:31:35 AM: Post processing - redirect rules
+9:31:35 AM: Post processing done
+9:31:35 AM: Site is live
+9:32:01 AM: Finished processing build request in 2m45.200706672s
