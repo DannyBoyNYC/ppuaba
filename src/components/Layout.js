@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import styled from '@emotion/styled'
 import { Global } from '@emotion/core'
-import Header from '../components/Header'
+// import Header from '../components/Header'
 import Menu from '../components/Menu'
 import Footer from '../components/Footer'
 import { globalStyles } from '../styles/globalStyles.js'
