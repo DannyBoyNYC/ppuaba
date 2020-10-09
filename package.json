@@ -1,8 +1,8 @@
 {
   "name": "gatsby-starter-gcn",
-  "description": "A starter template to build amazing static websites with Gatsby, Contentful and Netlify",
+  "description": "Park Place Underhill Avenue Block association website - Gatsby, Contentful and Netlify",
   "version": "2.1.3",
-  "repository": "https://github.com/ryanwiemer/gatsby-starter-gcn",
+  "repository": "https://github.com/DannyBoyNYC/ppuaba",
   "author": "Ryan Wiemer <ryan@ryanwiemer.com>",
   "dependencies": {
     "@emotion/core": "^10.0.35",

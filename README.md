@@ -1,9 +1,10 @@
-# PPUABA dev branch deploy
+# PPUABA
 
 Prospect Park, Underhill Avenue Block Association
 
+Built with Gatsby
 Deploys from Netlify.com
-Content provided by Contentful
+Content served by Contentful
 
 ## Features
 
