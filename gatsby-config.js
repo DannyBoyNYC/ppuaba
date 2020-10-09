@@ -24,7 +24,11 @@ module.exports = {
     image: '/images/share.jpg',
     menuLinks: [
       {
-        name: 'Park Place / Underhill Avenue Block Association (PPUABA)',
+        name: 'Park Place / Underhill Avenue Block Association',
+        slug: '/',
+      },
+      {
+        name: 'Home',
         slug: '/',
       },
       {
@@ -32,11 +36,16 @@ module.exports = {
         slug: '/about/',
       },
       {
+        name: 'Join',
+        slug: '/join-ppuaba/',
+      },
+
+      {
         name: 'Contact',
         slug: '/contact/',
       },
     ],
-    postsPerFirstPage: 7,
+    postsPerFirstPage: 25,
     postsPerPage: 6,
     basePath: '/',
   },
@@ -82,8 +91,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'GCN',
-        short_name: 'GCN',
+        name: 'Park Place Underhill Avenue Block Association',
+        short_name: 'PPABA',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#ffffff',
@@ -92,13 +101,13 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-    {
-      resolve: `gatsby-plugin-schema-snapshot`,
-      options: {
-        path: `./src/gatsby/schema/schema.gql`,
-        update: process.env.GATSBY_UPDATE_SCHEMA_SNAPSHOT,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-schema-snapshot`,
+    //   options: {
+    //     path: `./src/gatsby/schema/schema.gql`,
+    //     update: process.env.GATSBY_UPDATE_SCHEMA_SNAPSHOT,
+    //   },
+    // },
     'gatsby-plugin-netlify',
   ],
 }

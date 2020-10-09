@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Hero from '../components/Hero'
+import Caption from '../components/Caption'
 import Container from '../components/Container'
 import PageBody from '../components/PageBody'
 import TagList from '../components/TagList'
@@ -11,6 +12,7 @@ import SEO from '../components/SEO'
 
 const PostTemplate = ({ data, pageContext }) => {
   const {
+    caption,
     title,
     metaDescription,
     heroImage,
@@ -43,6 +45,7 @@ const PostTemplate = ({ data, pageContext }) => {
       />
       <Hero title={title} image={heroImage} height={'50vh'} />
       <Container>
+        {caption && <Caption caption={caption} />}
         {tags && <TagList tags={tags} basePath={basePath} />}
         <PostDetails
           date={publishDate}
@@ -60,6 +63,8 @@ export const query = graphql`
     contentfulPost(slug: { eq: $slug }) {
       title
       slug
+      ordering
+      caption
       metaDescription {
         internal {
           content

@@ -52,11 +52,13 @@ const Title = styled.h2`
 const Date = styled.h3`
   margin: 0 1rem 0.5rem 1rem;
   color: gray;
+  font-size: 0.875rem;
 `
 
 const ReadingTime = styled.h4`
   margin: 0 1rem 1.5rem 1rem;
   color: gray;
+  font-size: 0.875rem;
 `
 
 const Excerpt = styled.p`
@@ -71,8 +73,11 @@ const Card = ({ slug, heroImage, title, publishDate, body, ...props }) => {
         <Post featured={props.featured}>
           <Link to={`${props.basePath}/${slug}/`}>
             <StyledImg fluid={heroImage.fluid} backgroundColor={'#eeeeee'} />
-            <Title>{title}</Title>
-            <Date>{publishDate}</Date>
+            <Title>
+              {title}
+              {/* ( {props.ordering} ) */}
+            </Title>
+            <Date>Publish date {publishDate}</Date>
             <ReadingTime>
               {body.childMarkdownRemark.timeToRead} min read
             </ReadingTime>

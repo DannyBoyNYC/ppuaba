@@ -6,7 +6,7 @@ import { useSiteMetadata } from '../hooks/use-site-metadata'
 import { useIdentityContext } from 'react-netlify-identity'
 
 const Header = styled.header`
-  background: ${props => props.theme.colors.primary};
+  background: ${props => props.theme.colors.ppuaba};
   width: 100%;
   padding: 1.5em 0;
 `
@@ -19,15 +19,32 @@ const Nav = styled.nav`
   ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    @media screen and (min-width: ${props => props.theme.responsive.small}) {
+      flex-wrap: nowrap;
+    }
   }
 
   li {
     display: inline-block;
-    margin-left: 1em;
+    margin-left: 0;
+    @media screen and (min-width: ${props => props.theme.responsive.small}) {
+      margin-left: 1em;
+    }
+
     &:first-of-type {
       position: relative;
       margin: 0;
+      margin-bottom: 1rem;
       flex-basis: 100%;
+      line-height: 1.5;
+      font-size: 1.5rem;
+      /* font-family: Georgia, 'Times New Roman', Times, serif; */
+      @media screen and (min-width: ${props => props.theme.responsive.small}) {
+        font-size: 1.25rem;
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -36,7 +53,7 @@ const Nav = styled.nav`
     color: DarkGray;
     font-weight: 600;
     transition: all 0.2s;
-    border-bottom: 2px solid ${props => props.theme.colors.text};
+
     &:hover {
       color: white;
     }

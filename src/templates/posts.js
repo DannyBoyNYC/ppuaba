@@ -10,6 +10,7 @@ import { startCase } from 'lodash'
 
 const Posts = ({ data, pageContext }) => {
   const posts = data.allContentfulPost.edges
+  // console.log('posts ', posts)
   const { humanPageNumber, basePath } = pageContext
   const isFirstPage = humanPageNumber === 1
   let featuredPost
@@ -53,7 +54,7 @@ const Posts = ({ data, pageContext }) => {
 export const query = graphql`
   query($skip: Int!, $limit: Int!) {
     allContentfulPost(
-      sort: { fields: [publishDate], order: DESC }
+      sort: { fields: [ordering], order: ASC }
       limit: $limit
       skip: $skip
     ) {
@@ -62,6 +63,8 @@ export const query = graphql`
           title
           id
           slug
+          # // PURPLE - adds ordering prop to every card
+          ordering
           publishDate(formatString: "MMMM DD, YYYY")
           heroImage {
             title

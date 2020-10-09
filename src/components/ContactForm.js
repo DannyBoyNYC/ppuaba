@@ -204,7 +204,10 @@ class ContactForm extends React.Component {
             <input name="bot" onChange={this.handleInputChange} />
           </label>
         </p>
-
+        <p style={{ marginBottom: '1rem', lineHeight: '1.6' }}>
+          You can use this form to send an email to the Block Association. We
+          will respond to you as soon as possible.
+        </p>
         <Name
           name="name"
           type="text"
@@ -233,7 +236,7 @@ class ContactForm extends React.Component {
 
         <Modal visible={this.state.showModal}>
           <p>
-            Thank you for reaching out. I will get back to you as soon as
+            Thank you for your message. We will respond to you as soon as
             possible.
           </p>
           <Button onClick={this.closeModal}>Okay</Button>

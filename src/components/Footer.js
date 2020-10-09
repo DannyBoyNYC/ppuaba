@@ -29,7 +29,9 @@ const Item = styled.li`
     width: auto;
   }
   a {
-    font-weight: 600;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 0.875rem;
     transition: all 0.2s;
     color: ${props => props.theme.colors.text};
     &:hover {
@@ -46,14 +48,14 @@ const Footer = () => (
     <List>
       <Item>
         <a
-          href="https://www.ppuaba.com/"
+          href="https://www.ppuaba.org/"
           rel="nofollow noopener noreferrer"
           target="_blank"
         >
-          © Park Place Underhill Avenue Block Association
+          © Park Place – Underhill Avenue Block Association
         </a>
       </Item>
-      <Item>
+      {/* <Item>
         <a
           href="https://deverell.dev"
           target="_blank"
@@ -61,7 +63,7 @@ const Footer = () => (
         >
           Made with ♥️ by Daniel Deverell
         </a>
-      </Item>
+      </Item> */}
     </List>
   </Wrapper>
 )
