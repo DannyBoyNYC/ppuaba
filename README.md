@@ -26,21 +26,13 @@ Content served by Contentful
 
 https://gcn.netlify.com/
 
-![](screenshots/demo.jpg)
-
 ## Getting Started
 
 ### Install
 
 ```
-git clone https://github.com/ryanwiemer/gatsby-starter-gcn.git
+git clone https://github.com/DannyBoyNYC/ppuaba
 yarn install
-```
-
-Or via the [Gatsby CLI](https://www.npmjs.com/package/gatsby-cli)
-
-```
-gatsby new gatsby-starter-gcn https://github.com/ryanwiemer/gatsby-starter-gcn.git
 ```
 
 ### Setup Contentful
