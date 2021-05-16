@@ -45,7 +45,7 @@ module.exports = {
         slug: '/contact/',
       },
     ],
-    postsPerFirstPage: 25,
+    postsPerFirstPage: 100,
     postsPerPage: 6,
     basePath: '/',
   },
